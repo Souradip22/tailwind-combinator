@@ -5,6 +5,7 @@ export interface IBoxShadowConfigType {
   shadow?: string;
   vanillaCSS?: string;
   customCSS?: string;
+  favorite?: boolean;
 }
 
 export interface IButton {

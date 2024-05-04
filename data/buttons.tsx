@@ -19,7 +19,7 @@ import ButtonType17 from "./buttons/ButtonType17";
 import ButtonType18 from "./buttons/ButtonType18";
 import ButtonType19 from "./buttons/ButtonType19";
 import ButtonType20 from "./buttons/ButtonType20";
-// import ButtonTypeTest from "./buttons/ButtonTypeTest"; //this is just for testing purpose to see if the copied code renders correctly
+//import ButtonTypeTest from "./buttons/ButtonTypeTest"; //this is just for testing purpose to see if the copied code renders correctly
 
 const buttons: IButton[] = [
   ButtonType1,

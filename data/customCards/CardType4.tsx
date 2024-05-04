@@ -2,6 +2,7 @@ import { ICustomCard } from "@/lib/types";
 
 const CardType4: ICustomCard = {
   title: "Card type 4",
+
   source: (
     <div className="group rounded-lg h-128 relative border border-cyan-400 shadow-[0_0_5px_rgb(6,182,212),_0_0_2px_rgb(14,116,144)]  transition-all ease-out duration-300  hover:border-cyan-300 hover:shadow-[0_0_5px_rgb(6,182,212),_0_0_20px_rgb(14,116,144)] text-gray-400 dark:text-gray-200">
       <span className="absolute md:top-[30%] md:left-[30%] dark:bg-cyan-600 blur-[150px] size-[150px] top-[50%] left-[50%] bg-cyan-400"></span>

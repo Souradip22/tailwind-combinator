@@ -25,6 +25,7 @@ export const boxShadowConfigs: IBoxShadowConfigType[] = [
     name: "amber",
     shadow: "shadow-[0_0_5px_rgb(245,158,11),_0_0_20px_rgb(180,83,9)]",
     vanillaCSS: "box-shadow: 0 0 5px rgb(245,158,11),0 0 20px rgb(180,83,9)",
+    favorite: true,
   },
   {
     name: "yellow",
@@ -55,6 +56,7 @@ export const boxShadowConfigs: IBoxShadowConfigType[] = [
     name: "cyan",
     shadow: "shadow-[0_0_5px_rgb(6,182,212),_0_0_20px_rgb(14,116,144)]",
     vanillaCSS: "box-shadow: 0 0 5px rgb(6,182,212),0 0 20px rgb(14,116,144)",
+    favorite: true,
   },
   {
     name: "sky",
@@ -85,6 +87,7 @@ export const boxShadowConfigs: IBoxShadowConfigType[] = [
     name: "fuchsia",
     shadow: "shadow-[0_0_5px_rgb(217,70,239),_0_0_20px_rgb(162,26,175)]",
     vanillaCSS: "box-shadow: 0 0 5px rgb(217,70,239),0 0 20px rgb(162,26,175)",
+    favorite: true,
   },
   {
     name: "pink",
@@ -156,6 +159,7 @@ export const boxShadowConfigs: IBoxShadowConfigType[] = [
       "shadow-[0_6px_12px_-2px_rgba(50,50,93,0.25),0_3px_7px_-3px_rgba(0,0,0,0.3)]",
     vanillaCSS:
       "box-shadow:0 6px 12px -2px rgba(50,50,93,0.25),0 3px 7px -3px rgba(0,0,0,0.3)",
+    favorite: true,
   },
   {
     name: "#12",
@@ -196,11 +200,13 @@ export const boxShadowConfigs: IBoxShadowConfigType[] = [
     name: "#17",
     shadow: "shadow-[rgba(0,0,0,.1)_0_1px_2px_0]",
     vanillaCSS: "box-shadow:rgba(0,0,0,.1) 0 1px 2px 0",
+    favorite: true,
   },
   {
     name: "#18",
     shadow: "shadow-[rgba(0,0,0,0.45)_0_25px_20px_-20px]",
     vanillaCSS: "box-shadow:rgba(0,0,0,0.45) 0 25px 20px -20px",
+    favorite: true,
   },
   {
     name: "#19",
@@ -253,6 +259,7 @@ export const boxShadowConfigs: IBoxShadowConfigType[] = [
     name: "#27",
     shadow: "shadow-[rgba(0,0,0,0.1)_0_4px_12px]",
     vanillaCSS: "box-shadow:rgba(0,0,0,0.1) 0 4px 12px",
+    favorite: true,
   },
   {
     name: "#28",
@@ -309,6 +316,7 @@ export const boxShadowConfigs: IBoxShadowConfigType[] = [
       "shadow-[0_2px_5px_-1px_rgba(50,50,93,.25),0_1px_3px_-1px_rgba(0,0,0,.3)]",
     vanillaCSS:
       "box-shadow:0 2px 5px -1px rgba(50,50,93,.25),0 1px 3px -1px rgba(0,0,0,.3)",
+    favorite: true,
   },
   {
     name: "#36",
@@ -360,6 +368,7 @@ export const boxShadowConfigs: IBoxShadowConfigType[] = [
       "shadow-[rgba(60,64,67,0.3)_0_1px_2px_0,rgba(60,64,67,0.15)_0_2px_6px_2px]",
     vanillaCSS:
       "box-shadow:rgba(60,64,67,0.3) 0 1px 2px 0,rgba(60,64,67,0.15) 0 2px 6px 2px",
+    favorite: true,
   },
   {
     name: "#44",
@@ -390,6 +399,7 @@ export const boxShadowConfigs: IBoxShadowConfigType[] = [
       "shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1),0_2px_4px_-1px_rgba(0,0,0,0.06)]",
     vanillaCSS:
       "box-shadow:0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06)",
+    favorite: true,
   },
   {
     name: "#49",
@@ -433,6 +443,7 @@ export const boxShadowConfigs: IBoxShadowConfigType[] = [
     name: "#55",
     shadow: "shadow-[rgba(0,0,0,0.2)_0_18px_50px_-10px]",
     vanillaCSS: "box-shadow:rgba(0,0,0,0.2) 0 18px 50px -10px",
+    favorite: true,
   },
   {
     name: "#56",
@@ -468,6 +479,7 @@ export const boxShadowConfigs: IBoxShadowConfigType[] = [
       "shadow-[rgba(27,31,35,0.04)_0_1px_0,rgba(255,255,255,0.25)_0_1px_0_inset]",
     vanillaCSS:
       "box-shadow:rgba(27,31,35,0.04) 0 1px 0,rgba(255,255,255,0.25) 0 1px 0 inset",
+    favorite: true,
   },
   {
     name: "#61",
@@ -523,6 +535,7 @@ export const boxShadowConfigs: IBoxShadowConfigType[] = [
     name: "#69",
     shadow: "shadow-[0px_1px_0px_rgba(17,17,26,0.1)]",
     vanillaCSS: "box-shadow:0px 1px 0px rgba(17,17,26,0.1)",
+    favorite: true,
   },
   {
     name: "#70",
@@ -535,6 +548,7 @@ export const boxShadowConfigs: IBoxShadowConfigType[] = [
     name: "#71",
     shadow: "shadow-[0px_0px_16px_rgba(17,17,26,0.1)]",
     vanillaCSS: "box-shadow:0px 0px 16px rgba(17,17,26,0.1)",
+    favorite: true,
   },
   {
     name: "#72",
@@ -577,6 +591,7 @@ export const boxShadowConfigs: IBoxShadowConfigType[] = [
       "shadow-[rgba(50,50,105,0.15)_0_2px_5px_0,rgba(0,0,0,0.05)_0_1px_1px_0]",
     vanillaCSS:
       "box-shadow:rgba(50,50,105,0.15) 0 2px 5px 0,rgba(0,0,0,0.05) 0 1px 1px 0",
+    favorite: true,
   },
   {
     name: "#78",
@@ -588,6 +603,7 @@ export const boxShadowConfigs: IBoxShadowConfigType[] = [
     name: "#79",
     shadow: "shadow-[rgba(0,0,0,.15)_2.4px_2.4px_3.2px]",
     vanillaCSS: "box-shadow:rgba(0,0,0,.15) 2.4px 2.4px 3.2px",
+    favorite: true,
   },
   {
     name: "#80",

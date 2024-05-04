@@ -22,6 +22,7 @@ export default function BoxShadows() {
                 shadow={card.shadow}
                 vanillaCSS={card.vanillaCSS}
                 customCSS={card?.customCSS}
+                favorite={card?.favorite}
               />
             ))}
           </>

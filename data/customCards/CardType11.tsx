@@ -2,6 +2,7 @@ import { ICustomCard } from "@/lib/types";
 
 const CardType11: ICustomCard = {
   title: "Card type 11",
+  favourite: true,
   fullWidth: true,
   source: (
     <div className="group bg-white dark:bg-darkSecondary p-5 sm:p-10 flex flex-col sm:flex-row gap-8 items-center  shadow-md rounded-lg mt-[30%] sm:mt-8 transition-all;">
