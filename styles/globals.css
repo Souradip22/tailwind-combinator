@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (prefers-color-scheme: dark) {
+  body {
+    /* background-color: #000000; */
+  }
+}
+
+@layer components {
+  .card-style {
+    @apply mx-auto  text-black font-light text-sm   h-40 w-40 rounded-md bg-white flex items-center justify-center;
+  }
+}
+
+.bg-clip-text {
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.shadow-bg {
+  --mask-offset-right: 80%;
+  --mask-offset-bottom: 70%;
+  -webkit-mask: linear-gradient(
+      to top,
+      transparent,
+      #fff var(--mask-offset-bottom) 80%,
+      transparent
+    ),
+    linear-gradient(
+      to right,
+      transparent,
+      #fff var(--mask-offset-right) 20%,
+      transparent
+    );
+  mask: linear-gradient(
+      to top,
+      transparent,
+      #fff var(--mask-offset-bottom) 80%,
+      transparent
+    ),
+    linear-gradient(
+      to right,
+      transparent,
+      #fff var(--mask-offset-right) 20%,
+      transparent
+    );
+  /* -webkit-mask: radial-gradient(circle at 50% 50%,transparent 0,#fff calc(100% - var(--mask-offset)),transparent 100%); */
+  -webkit-mask-composite: source-in, xor;
+  mask-composite: intersect;
+}
+.header-gradient {
+  background: radial-gradient(
+      circle farthest-corner at center center,
+      #b95af4,
+      #4338ca
+    )
+    no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
