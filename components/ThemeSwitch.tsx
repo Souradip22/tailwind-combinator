@@ -4,6 +4,8 @@ import { FiSun, FiMoon } from "react-icons/fi";
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import Image from "next/image";
+import Link from "next/link";
+import { BsGithub } from "react-icons/bs";
 
 export default function ThemeSwitch({ text }: { text?: string }) {
   const [mounted, setMounted] = useState(false);
@@ -30,16 +32,25 @@ export default function ThemeSwitch({ text }: { text?: string }) {
   };
 
   return (
-    <span
-      className="flex items-center gap-4 rounded-md bg-gray-50 dark:bg-stone-800 dark:text-gray-300 px-3 py-2  cursor-pointer"
-      onClick={toggleTheme}
-    >
-      {resolvedTheme === "dark" ? (
-        <FiSun className="text-amber-500 w-4 h-4" />
-      ) : (
-        <FiMoon className="text-gray-800 w-4 h-4" />
-      )}
-      {text && <span>{text}</span>}
+    <span className="flex gap-2">
+      <span
+        className="flex items-center gap-4 rounded-md bg-gray-50 dark:bg-stone-800 dark:text-gray-300 px-3 py-2  cursor-pointer"
+        onClick={toggleTheme}
+      >
+        {resolvedTheme === "dark" ? (
+          <FiSun className="text-amber-500 w-4 h-4" />
+        ) : (
+          <FiMoon className="text-gray-800 w-4 h-4" />
+        )}
+        {text && <span>{text}</span>}
+      </span>
+      <Link
+        href={`https://github.com/Souradip22/tailwind-combinator`}
+        target="_blank"
+        className="flex items-center gap-4 rounded-md bg-gray-50 text-gray-800 dark:bg-stone-800 dark:text-gray-300 px-3 py-2  cursor-pointer"
+      >
+        <BsGithub className="w-4 h-4  " />
+      </Link>
     </span>
   );
 }
